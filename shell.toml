@@ -1,0 +1,153 @@
+# Omarchy shell visual tokens for Noir.
+
+[bar]
+background       = "#080706"
+background-alpha = 0.88
+text             = "#d0c3b4"
+active           = "#a5342f"
+scale-with-font  = true
+size-horizontal  = 28
+size-vertical    = 30
+
+[controls]
+normal-color        = "#d0c3b4"
+normal-fill-alpha   = 0.045
+normal-border-width = 1
+normal-border-alpha = 0.18
+
+hover-cursor-color        = "#c29b67"
+hover-cursor-fill-alpha   = 0.10
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.42
+
+focus-color        = "#c29b67"
+focus-fill-alpha   = 0.12
+focus-border-width = 1
+focus-border-alpha = 0.62
+
+selected-color        = "#a67a43"
+selected-fill-alpha   = 0.18
+selected-border-width = 1
+selected-border-alpha = 0.55
+
+pressed-color        = "#c08b4a"
+pressed-fill-alpha   = 0.24
+selection-color      = "#a67a43"
+selection-fill-alpha = 0.36
+
+[spacing]
+scale = 1.02
+scale-with-font = true
+control-gap = 8
+control-padding-x = 11
+control-padding-y = 6
+input-padding-y = 7
+control-height = 29
+popup-row-height = 30
+row-gap = 8
+row-padding-x = 13
+label-gap = 4
+panel-gap = 15
+panel-padding = 19
+popup-padding = 15
+dropdown-width = 246
+searchable-dropdown-width = 266
+number-field-width = 122
+searchable-popup-min-height = 224
+
+[font]
+base-size = 12
+caption = 10
+body-small = 11
+body = 12
+subtitle = 13
+title = 14
+heading = 16
+display = 24
+display-large = 28
+icon-small = 11
+icon = 14
+icon-large = 18
+
+[popups]
+background       = "#110e0c"
+background-alpha = 0.94
+text             = "#d0c3b4"
+border           = "#4a4036"
+border-alpha     = 0.95
+
+[tooltip]
+background       = "#110e0c"
+background-alpha = 0.96
+text             = "#d0c3b4"
+border           = "#a67a43"
+border-alpha     = 0.72
+
+[notifications]
+background       = "#110e0c"
+background-alpha = 0.95
+text             = "#d0c3b4"
+border           = "#a67a43"
+border-alpha     = 0.90
+countdown        = "#c08b4a"
+
+[launcher]
+background                = "#15110f"
+background-alpha          = 0.92
+text                      = "#d0c3b4"
+border                    = "#4a4036"
+border-alpha              = 0.95
+scrim                     = "#080706"
+scrim-alpha               = 0.56
+selected-background       = "#a67a43"
+selected-background-alpha = 0.18
+selected-text             = "#c29b67"
+selected-border           = "#c29b67"
+selected-border-alpha     = 0.72
+
+[menu]
+background                = "#15110f"
+background-alpha          = 0.95
+text                      = "#d0c3b4"
+border                    = "#4a4036"
+border-alpha              = 0.95
+scrim                     = "#080706"
+scrim-alpha               = 0.52
+selected-background       = "#a67a43"
+selected-background-alpha = 0.18
+selected-text             = "#c29b67"
+selected-border           = "#c29b67"
+selected-border-alpha     = 0.68
+
+[polkit]
+background       = "#110e0c"
+background-alpha = 0.97
+text             = "#d0c3b4"
+text-error       = "#a5342f"
+border           = "#a67a43"
+border-error     = "#a5342f"
+border-alpha     = 0.96
+scrim            = "#080706"
+scrim-alpha      = 0.58
+accent           = "#c08b4a"
+
+[lock]
+background       = "#110e0c"
+background-alpha = 0.82
+text             = "#d0c3b4"
+text-error       = "#a5342f"
+border           = "#4a4036"
+border-active    = "#c29b67"
+border-error     = "#a5342f"
+border-alpha     = 0.95
+selection        = "#a67a43"
+selection-alpha  = 0.42
+
+[image-picker]
+scrim                   = "#080706"
+scrim-alpha             = 0.58
+text                    = "#d0c3b4"
+selected-border         = "#c29b67"
+selected-border-alpha   = 1.0
+unselected-border       = "#8d8177"
+unselected-border-alpha = 0.30
