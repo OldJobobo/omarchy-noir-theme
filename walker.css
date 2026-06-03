@@ -1,15 +1,15 @@
 @define-color selected-text #a67a43;
-@define-color text #d0c3b4;
+@define-color text #9e9286;
 @define-color base #080706;
-@define-color border #47413d;
+@define-color border #6f665f;
 @define-color frame #4a4036;
 @define-color panel #15110f;
 @define-color panel-edge #100d0b;
 @define-color accent-line #c29b67;
 @define-color hover #1b1612;
 @define-color selected-bg #19130f;
-@define-color muted #8d8177;
-@define-color foreground #d0c3b4;
+@define-color muted #6f665f;
+@define-color foreground #9e9286;
 @define-color background #080706;
 
 window,
@@ -33,7 +33,7 @@ window .box-wrapper,
     border-radius: 0;
     padding: 18px 22px 20px;
     box-shadow:
-        inset 0 1px rgba(208, 195, 180, 0.03),
+        inset 0 1px rgba(158, 146, 134, 0.03),
         0 18px 42px rgba(0, 0, 0, 0.62),
         0 3px 10px rgba(0, 0, 0, 0.35);
 }
@@ -47,7 +47,7 @@ window .search,
     border-radius: 0;
     padding: 12px 16px;
     margin: 0 0 14px 0;
-    box-shadow: inset 0 1px rgba(208, 195, 180, 0.025);
+    box-shadow: inset 0 1px rgba(158, 146, 134, 0.025);
 }
 
 entry,
@@ -99,7 +99,7 @@ child:selected .item-box {
     background-color: @selected-bg;
     border-left-color: @accent-line;
     transform: translateX(4px);
-    box-shadow: inset 0 1px rgba(208, 195, 180, 0.025);
+    box-shadow: inset 0 1px rgba(158, 146, 134, 0.025);
 }
 
 child:selected .item-box * {

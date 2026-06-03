@@ -7,7 +7,7 @@
 
 /* Dynamic Color Palette */
 @define-color background #080706;
-@define-color foreground #d0c3b4;
+@define-color foreground #9e9286;
 
 @define-color black #080706;
 @define-color red #96423c;
@@ -16,8 +16,8 @@
 @define-color blue #5a6674;
 @define-color magenta #7b5a6a;
 @define-color cyan #8c6f4b;
-@define-color white #8d8177;
-@define-color bright_black #47413d;
+@define-color white #9e9286;
+@define-color bright_black #6f665f;
 @define-color bright_red #a5342f;
 @define-color bright_green #667863;
 @define-color bright_yellow #c08b4a;

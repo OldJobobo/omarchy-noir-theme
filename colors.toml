@@ -4,10 +4,10 @@
   active_tab_background = "#a67a43"
 
   # Cursor colors
-  cursor = "#d0c3b4"
+  cursor = "#9e9286"
 
   # Primary colors
-  foreground = "#d0c3b4"
+  foreground = "#9e9286"
   background = "#080706"
 
   # Selection colors
@@ -22,10 +22,10 @@
   color4 = "#5a6674"
   color5 = "#7b5a6a"
   color6 = "#8c6f4b"
-  color7 = "#8d8177"
+  color7 = "#9e9286"
 
   # Bright colors (ANSI 8-15)
-  color8 = "#47413d"
+  color8 = "#6f665f"
   color9 = "#a5342f"
   color10 = "#667863"
   color11 = "#c08b4a"
@@ -33,5 +33,3 @@
   color13 = "#967284"
   color14 = "#c4ab84"
   color15 = "#d0c3b4"
-
-

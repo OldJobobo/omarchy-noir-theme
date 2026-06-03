@@ -10,15 +10,15 @@ return {
                 -- Background colors
                 bg = "#080706",
                 bg_dark = "#080706",
-                bg_highlight = "#47413d",
+                bg_highlight = "#6f665f",
 
                 -- Foreground colors
                 -- fg: Object properties, builtin types, builtin variables, member access, default text
-                fg = "#d0c3b4",
+                fg = "#9e9286",
                 -- fg_dark: Inactive elements, statusline, secondary text
-                fg_dark = "#8d8177",
+                fg_dark = "#6f665f",
                 -- comment: Line highlight, gutter elements, disabled states
-                comment = "#47413d",
+                comment = "#6f665f",
 
                 -- Accent colors
                 -- red: Errors, diagnostics, tags, deletions, breakpoints

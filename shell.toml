@@ -3,14 +3,14 @@
 [bar]
 background       = "#080706"
 background-alpha = 0.88
-text             = "#d0c3b4"
+text             = "#9e9286"
 active           = "#a5342f"
 scale-with-font  = true
 size-horizontal  = 28
 size-vertical    = 30
 
 [controls]
-normal-color        = "#d0c3b4"
+normal-color        = "#9e9286"
 normal-fill-alpha   = 0.045
 normal-border-width = 1
 normal-border-alpha = 0.18
@@ -72,21 +72,21 @@ icon-large = 18
 [popups]
 background       = "#110e0c"
 background-alpha = 0.94
-text             = "#d0c3b4"
+text             = "#9e9286"
 border           = "#4a4036"
 border-alpha     = 0.95
 
 [tooltip]
 background       = "#110e0c"
 background-alpha = 0.96
-text             = "#d0c3b4"
+text             = "#9e9286"
 border           = "#a67a43"
 border-alpha     = 0.72
 
 [notifications]
 background       = "#110e0c"
 background-alpha = 0.95
-text             = "#d0c3b4"
+text             = "#9e9286"
 border           = "#a67a43"
 border-alpha     = 0.90
 countdown        = "#c08b4a"
@@ -94,7 +94,7 @@ countdown        = "#c08b4a"
 [launcher]
 background                = "#15110f"
 background-alpha          = 0.92
-text                      = "#d0c3b4"
+text                      = "#9e9286"
 border                    = "#4a4036"
 border-alpha              = 0.95
 scrim                     = "#080706"
@@ -108,7 +108,7 @@ selected-border-alpha     = 0.72
 [menu]
 background                = "#15110f"
 background-alpha          = 0.95
-text                      = "#d0c3b4"
+text                      = "#9e9286"
 border                    = "#4a4036"
 border-alpha              = 0.95
 scrim                     = "#080706"
@@ -122,7 +122,7 @@ selected-border-alpha     = 0.68
 [polkit]
 background       = "#110e0c"
 background-alpha = 0.97
-text             = "#d0c3b4"
+text             = "#9e9286"
 text-error       = "#a5342f"
 border           = "#a67a43"
 border-error     = "#a5342f"
@@ -134,7 +134,7 @@ accent           = "#c08b4a"
 [lock]
 background       = "#110e0c"
 background-alpha = 0.82
-text             = "#d0c3b4"
+text             = "#9e9286"
 text-error       = "#a5342f"
 border           = "#4a4036"
 border-active    = "#c29b67"
@@ -146,8 +146,8 @@ selection-alpha  = 0.42
 [image-picker]
 scrim                   = "#080706"
 scrim-alpha             = 0.58
-text                    = "#d0c3b4"
+text                    = "#9e9286"
 selected-border         = "#c29b67"
 selected-border-alpha   = 1.0
-unselected-border       = "#8d8177"
+unselected-border       = "#6f665f"
 unselected-border-alpha = 0.30

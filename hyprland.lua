@@ -4,7 +4,7 @@ local activeBorderColor = {
 	angle = 42,
 }
 local inactiveBorderColor = {
-	colors = { "rgba(47413dcc)", "rgba(4a403699)", "rgba(47413dcc)" },
+	colors = { "rgba(6f665fcc)", "rgba(4a403699)", "rgba(6f665fcc)" },
 	angle = 42,
 }
 local activeShadowColor = "rgba(00000099)"
@@ -30,8 +30,8 @@ hl.config({
 		rounding = 0,
 		dim_inactive = true,
 		dim_strength = 0.14,
-		active_opacity = 1.0,
-		inactive_opacity = 0.96,
+		--active_opacity = 1.0,
+		inactive_opacity = 0.93,
 		blur = {
 			enabled = true,
 			size = 3,
