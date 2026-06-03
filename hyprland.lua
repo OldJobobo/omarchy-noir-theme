@@ -9,6 +9,7 @@ local inactiveBorderColor = {
 }
 local activeShadowColor = "rgba(000000aa)"
 local inactiveShadowColor = "rgba(00000055)"
+local browserClass = "((google-)?[cC]hrom(e|ium)|[bB]rave-browser|zen|[fF]irefox)"
 
 hl.config({
 	general = {
@@ -53,6 +54,14 @@ hl.config({
 	animations = {
 		enabled = true,
 	},
+})
+
+hl.window_rule({
+	name = "noir-browser-no-dim",
+	match = {
+		class = browserClass,
+	},
+	no_dim = true,
 })
 
 hl.curve("noirCut", { type = "bezier", points = { { 0.18, 0.92 }, { 0.16, 1.0 } } })
