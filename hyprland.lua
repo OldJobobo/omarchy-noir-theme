@@ -1,13 +1,13 @@
 -- Noir Hyprland theme include.
 local activeBorderColor = {
-	colors = { "rgb(4a4036)", "rgb(a67a43)", "rgb(c29b67)", "rgb(4a4036)" },
-	angle = 42,
+	colors = { "rgb(080706)", "rgb(96423c)", "rgb(c29b67)", "rgb(5a6674)", "rgb(080706)" },
+	angle = 135,
 }
 local inactiveBorderColor = {
-	colors = { "rgba(6f665fcc)", "rgba(4a403699)", "rgba(6f665fcc)" },
-	angle = 42,
+	colors = { "rgba(6f665f99)", "rgba(4a403655)", "rgba(080706cc)" },
+	angle = 135,
 }
-local activeShadowColor = "rgba(00000099)"
+local activeShadowColor = "rgba(000000aa)"
 local inactiveShadowColor = "rgba(00000055)"
 
 hl.config({
@@ -16,9 +16,9 @@ hl.config({
 			active_border = activeBorderColor,
 			inactive_border = inactiveBorderColor,
 		},
-		border_size = 2,
-		gaps_in = 6,
-		gaps_out = 12,
+		border_size = 3,
+		gaps_in = 7,
+		gaps_out = 22,
 	},
 	group = {
 		col = {
@@ -29,23 +29,23 @@ hl.config({
 	decoration = {
 		rounding = 0,
 		dim_inactive = true,
-		dim_strength = 0.14,
+		dim_strength = 0.28,
 		--active_opacity = 1.0,
-		inactive_opacity = 0.93,
+		inactive_opacity = 0.88,
 		blur = {
 			enabled = true,
-			size = 3,
-			passes = 2,
-			noise = 0.05,
-			contrast = 0.1,
-			vibrancy = 0.1,
-			vibrancy_darkness = 0.1,
+			size = 2,
+			passes = 1,
+			noise = 0.08,
+			contrast = 0.24,
+			vibrancy = 0.0,
+			vibrancy_darkness = 0.28,
 		},
 		shadow = {
 			enabled = true,
-			range = 14,
-			render_power = 3,
-			offset = "2 3",
+			range = 20,
+			render_power = 4,
+			offset = "6 8",
 			color = activeShadowColor,
 			color_inactive = inactiveShadowColor,
 		},
@@ -55,14 +55,15 @@ hl.config({
 	},
 })
 
-hl.curve("noirEase", { type = "bezier", points = { { 0.24, 0.9 }, { 0.2, 1.0 } } })
+hl.curve("noirCut", { type = "bezier", points = { { 0.18, 0.92 }, { 0.16, 1.0 } } })
+hl.curve("noirDrift", { type = "bezier", points = { { 0.12, 0.72 }, { 0.24, 1.0 } } })
 
-local function noirAnimation(leaf, speed, style)
+local function noirAnimation(leaf, speed, style, curve)
 	local animation = {
 		leaf = leaf,
 		enabled = true,
 		speed = speed,
-		bezier = "noirEase",
+		bezier = curve or "noirCut",
 	}
 
 	if style then
@@ -72,17 +73,17 @@ local function noirAnimation(leaf, speed, style)
 	hl.animation(animation)
 end
 
-noirAnimation("windows", 4)
-noirAnimation("windowsIn", 5, "popin 20%")
-noirAnimation("windowsOut", 4, "popin 75%")
-noirAnimation("border", 5)
-noirAnimation("fade", 4)
-noirAnimation("fadeIn", 4)
-noirAnimation("fadeOut", 3)
-noirAnimation("layers", 4)
-noirAnimation("layersIn", 4, "fade")
-noirAnimation("layersOut", 3, "fade")
-noirAnimation("fadeLayersIn", 4)
-noirAnimation("fadeLayersOut", 3)
-noirAnimation("workspaces", 4)
-noirAnimation("specialWorkspace", 4, "slidevert")
+noirAnimation("windows", 6)
+noirAnimation("windowsIn", 7, "popin 8%")
+noirAnimation("windowsOut", 5, "popin 55%")
+noirAnimation("border", 7)
+noirAnimation("fade", 5)
+noirAnimation("fadeIn", 5)
+noirAnimation("fadeOut", 4)
+noirAnimation("layers", 5)
+noirAnimation("layersIn", 5, "fade")
+noirAnimation("layersOut", 4, "fade")
+noirAnimation("fadeLayersIn", 5)
+noirAnimation("fadeLayersOut", 4)
+noirAnimation("workspaces", 5, "slide", "noirDrift")
+noirAnimation("specialWorkspace", 5, "slidevert", "noirDrift")
