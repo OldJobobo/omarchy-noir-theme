@@ -12,21 +12,25 @@ size-vertical    = 30
 [controls]
 normal-color        = "#9e9286"
 normal-fill-alpha   = 0.045
+normal-border       = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
 normal-border-width = 1
 normal-border-alpha = 0.18
 
 hover-cursor-color        = "#c29b67"
 hover-cursor-fill-alpha   = 0.10
+hover-cursor-border       = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
 hover-cursor-border-width = 1
 hover-cursor-border-alpha = 0.42
 
 focus-color        = "#c29b67"
 focus-fill-alpha   = 0.12
+focus-border       = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
 focus-border-width = 1
 focus-border-alpha = 0.62
 
 selected-color        = "#a67a43"
 selected-fill-alpha   = 0.18
+selected-border       = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
 selected-border-width = 1
 selected-border-alpha = 0.55
 
@@ -70,61 +74,67 @@ icon = 14
 icon-large = 18
 
 [popups]
-background       = "#110e0c"
+background       = "#040302"
 background-alpha = 0.94
 text             = "#9e9286"
-border           = "#4a4036"
+border           = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
 border-alpha     = 0.95
 
 [tooltip]
-background       = "#110e0c"
+background       = "#040302"
 background-alpha = 0.96
 text             = "#9e9286"
-border           = "#a67a43"
+border           = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
 border-alpha     = 0.72
 
 [notifications]
-background       = "#110e0c"
+background       = "#040302"
 background-alpha = 0.95
 text             = "#9e9286"
-border           = "#a67a43"
+border           = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
 border-alpha     = 0.90
 countdown        = "#c08b4a"
 
 [launcher]
-background                = "#15110f"
-background-alpha          = 0.92
+background                = "#18130f"
+background-alpha          = 0.94
 text                      = "#9e9286"
-border                    = "#4a4036"
-border-alpha              = 0.95
+border                    = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
+border-alpha              = 0.52
+border-width              = 2
 scrim                     = "#080706"
-scrim-alpha               = 0.56
-selected-background       = "#a67a43"
-selected-background-alpha = 0.18
-selected-text             = "#c29b67"
-selected-border           = "#c29b67"
+scrim-alpha               = 0.44
+selected-background       = "rgb(96423c) rgb(c29b67) rgb(5a6674) 90deg"
+selected-background-alpha = 0.09
+selected-text             = "#f7f1ea"
+selected-border           = "#6f665f"
 selected-border-alpha     = 0.72
+selected-border-width     = 0
+selected-border-width-left = 4
 
 [menu]
-background                = "#15110f"
-background-alpha          = 0.95
+background                = "#18130f"
+background-alpha          = 0.94
 text                      = "#9e9286"
-border                    = "#4a4036"
-border-alpha              = 0.95
+border                    = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
+border-alpha              = 0.52
+border-width              = 2
 scrim                     = "#080706"
-scrim-alpha               = 0.52
-selected-background       = "#a67a43"
-selected-background-alpha = 0.18
-selected-text             = "#c29b67"
-selected-border           = "#c29b67"
-selected-border-alpha     = 0.68
+scrim-alpha               = 0.44
+selected-background       = "rgb(96423c) rgb(c29b67) rgb(5a6674) 90deg"
+selected-background-alpha = 0.09
+selected-text             = "#f7f1ea"
+selected-border           = "#6f665f"
+selected-border-alpha     = 0.72
+selected-border-width     = 0
+selected-border-width-left = 4
 
 [polkit]
-background       = "#110e0c"
+background       = "#040302"
 background-alpha = 0.97
 text             = "#9e9286"
 text-error       = "#a5342f"
-border           = "#a67a43"
+border           = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
 border-error     = "#a5342f"
 border-alpha     = 0.96
 scrim            = "#080706"
@@ -132,12 +142,13 @@ scrim-alpha      = 0.58
 accent           = "#c08b4a"
 
 [lock]
-background       = "#110e0c"
+background       = "#040302"
 background-alpha = 0.82
 text             = "#9e9286"
+placeholder      = "#8d8177"
 text-error       = "#a5342f"
-border           = "#4a4036"
-border-active    = "#c29b67"
+border           = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
+border-active    = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
 border-error     = "#a5342f"
 border-alpha     = 0.95
 selection        = "#a67a43"
@@ -149,5 +160,5 @@ scrim-alpha             = 0.58
 text                    = "#9e9286"
 selected-border         = "#c29b67"
 selected-border-alpha   = 1.0
-unselected-border       = "#6f665f"
+unselected-border       = "#8d8177"
 unselected-border-alpha = 0.30

@@ -28,7 +28,7 @@ yellow  = "#c08b4a"
 blue    = "#7a8796"
 magenta = "#967284"
 cyan    = "#c4ab84"
-white   = "#d0c3b4"
+white   = "#f7f1ea"
 
 [colors.cursor]
 text   = "#080706"

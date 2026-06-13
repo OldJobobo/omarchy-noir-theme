@@ -1,9 +1,9 @@
 @define-color background-color #080706;
-@define-color border-color #4a4036;
+@define-color border-color #6f665f;
 @define-color label #9e9286;
 @define-color image #9e9286;
-@define-color progress #a67a43;
-@define-color panel-edge #100d0b;
+@define-color progress #c08b4a;
+@define-color panel-edge #040302;
 
 window:not(:backdrop),
 window:backdrop {

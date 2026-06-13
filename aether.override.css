@@ -6,30 +6,55 @@
  */
 
 /* Dynamic Color Palette */
-@define-color background #080706;
-@define-color foreground #9e9286;
+@define-color base00 #080706;
+@define-color base01 #18130f;
+@define-color base02 #2d251f;
+@define-color base03 #6f665f;
+@define-color base04 #8d8177;
+@define-color base05 #9e9286;
+@define-color base06 #d0c3b4;
+@define-color base07 #f7f1ea;
+@define-color base08 #96423c;
+@define-color base09 #a5342f;
+@define-color base0A #a67a43;
+@define-color base0B #51604f;
+@define-color base0C #8c6f4b;
+@define-color base0D #5a6674;
+@define-color base0E #7b5a6a;
+@define-color base0F #7a5138;
+@define-color base10 #040302;
+@define-color base11 #010101;
+@define-color base12 #a5342f;
+@define-color base13 #c08b4a;
+@define-color base14 #667863;
+@define-color base15 #c4ab84;
+@define-color base16 #7a8796;
+@define-color base17 #967284;
 
-@define-color black #080706;
-@define-color red #96423c;
-@define-color green #51604f;
-@define-color yellow #a67a43;
-@define-color blue #5a6674;
-@define-color magenta #7b5a6a;
-@define-color cyan #8c6f4b;
-@define-color white #9e9286;
-@define-color bright_black #6f665f;
-@define-color bright_red #a5342f;
-@define-color bright_green #667863;
-@define-color bright_yellow #c08b4a;
-@define-color bright_blue #7a8796;
-@define-color bright_magenta #967284;
-@define-color bright_cyan #c4ab84;
-@define-color bright_white #d0c3b4;
+@define-color background @base00;
+@define-color foreground @base05;
+
+@define-color black @base00;
+@define-color red @base08;
+@define-color green @base0B;
+@define-color yellow @base0A;
+@define-color blue @base0D;
+@define-color magenta @base0E;
+@define-color cyan @base0C;
+@define-color white @base05;
+@define-color bright_black @base03;
+@define-color bright_red @base12;
+@define-color bright_green @base14;
+@define-color bright_yellow @base13;
+@define-color bright_blue @base16;
+@define-color bright_magenta @base17;
+@define-color bright_cyan @base15;
+@define-color bright_white @base07;
 
 /* Base GTK theme variables */
 @define-color theme_bg_color @background;
 @define-color theme_fg_color @foreground;
-@define-color theme_base_color @background;
+@define-color theme_base_color @base01;
 @define-color theme_text_color @foreground;
 @define-color theme_selected_bg_color @yellow;
 @define-color theme_selected_fg_color @background;
@@ -38,7 +63,7 @@
 @define-color insensitive_base_color @background;
 @define-color theme_unfocused_bg_color @background;
 @define-color theme_unfocused_fg_color @foreground;
-@define-color theme_unfocused_base_color @background;
+@define-color theme_unfocused_base_color @base01;
 @define-color theme_unfocused_text_color @foreground;
 @define-color theme_unfocused_selected_bg_color @yellow;
 @define-color theme_unfocused_selected_fg_color @background;
@@ -48,24 +73,24 @@
 @define-color accent_fg_color @background;
 @define-color accent_color @yellow;
 
-@define-color window_bg_color #110e0c;
+@define-color window_bg_color @base00;
 @define-color window_fg_color @foreground;
 
 /* Sidebar background and content */
-@define-color view_bg_color #15110f;
+@define-color view_bg_color @base01;
 @define-color view_fg_color @foreground;
-@define-color sidebar_bg_color #0d0b09;
+@define-color sidebar_bg_color @base00;
 @define-color sidebar_fg_color @foreground;
-@define-color sidebar_backdrop_color #0d0b09;
-@define-color sidebar_shade_color #0d0b09;
+@define-color sidebar_backdrop_color @base00;
+@define-color sidebar_shade_color @base00;
 
-@define-color headerbar_bg_color #0d0b09;
+@define-color headerbar_bg_color @base00;
 @define-color headerbar_fg_color @foreground;
 @define-color headerbar_backdrop_color @background;
 @define-color headerbar_shade_color @background;
-@define-color headerbar_border_color alpha(@yellow, 0.18);
+@define-color headerbar_border_color alpha(@foreground, 0.08);
 
-@define-color card_bg_color #171310;
+@define-color card_bg_color @base01;
 @define-color card_fg_color @foreground;
 @define-color card_shade_color @background;
 
@@ -75,23 +100,23 @@
 @define-color shade_color @background;
 @define-color scrollbar_outline_color @background;
 
-@define-color popover_bg_color #120f0d;
+@define-color popover_bg_color @base01;
 @define-color popover_fg_color @foreground;
 
-@define-color dialog_bg_color #110e0c;
+@define-color dialog_bg_color @base00;
 @define-color dialog_fg_color @foreground;
 
 @define-color destructive_bg_color @red;
-@define-color destructive_fg_color @foreground;
+@define-color destructive_fg_color @bright_white;
 
 @define-color success_bg_color @green;
-@define-color success_fg_color @foreground;
+@define-color success_fg_color @bright_white;
 
 @define-color warning_bg_color @yellow;
 @define-color warning_fg_color @background;
 
 @define-color error_bg_color @red;
-@define-color error_fg_color @foreground;
+@define-color error_fg_color @bright_white;
 
 @define-color borders alpha(@foreground, 0.18);
 
@@ -102,10 +127,10 @@
 @define-color menu_bg_color @background;
 @define-color menu_fg_color @foreground;
 
-@define-color entry_bg_color #100d0b;
+@define-color entry_bg_color @base01;
 @define-color entry_fg_color @foreground;
 
-@define-color button_bg_color #16120f;
+@define-color button_bg_color @base01;
 @define-color button_fg_color @foreground;
 
 @define-color tooltip_bg_color @background;
@@ -131,7 +156,7 @@
 @define-color filedialog_fg_color @foreground;
 
 /* Dropdown/ComboBox colors */
-@define-color dropdown_bg_color @background;
+@define-color dropdown_bg_color @base01;
 @define-color dropdown_fg_color @foreground;
 @define-color dropdown_hover_bg_color alpha(@yellow, 0.22);
 @define-color dropdown_selected_bg_color @yellow;
@@ -167,7 +192,7 @@
 @define-color selection_fg_color @background;
 
 /* Content view (file browser grid/list) */
-@define-color content_view_bg @background;
+@define-color content_view_bg @base01;
 @define-color content_view_fg @foreground;
 
 /* Placeholder text in entries */
