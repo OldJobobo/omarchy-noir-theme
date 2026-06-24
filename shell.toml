@@ -3,41 +3,41 @@
 [bar]
 background       = "#080706"
 background-alpha = 0.88
-text             = "#9e9286"
+text             = "#d0c3b4"
 active           = "#a5342f"
 scale-with-font  = true
 size-horizontal  = 28
 size-vertical    = 30
 
 [controls]
-normal-color        = "#9e9286"
+normal-color        = "#d0c3b4"
 normal-fill-alpha   = 0.045
-normal-border       = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
+normal-border       = "rgb(080706) rgb(5a6674) rgb(96423c) rgb(080706) 135deg"
 normal-border-width = 1
-normal-border-alpha = 0.18
+normal-border-alpha = 0.14
 
-hover-cursor-color        = "#c29b67"
+hover-cursor-color        = "#7a8796"
 hover-cursor-fill-alpha   = 0.10
-hover-cursor-border       = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
+hover-cursor-border       = "rgb(080706) rgb(5a6674) rgb(96423c) rgb(080706) 135deg"
 hover-cursor-border-width = 1
-hover-cursor-border-alpha = 0.42
+hover-cursor-border-alpha = 0.32
 
-focus-color        = "#c29b67"
+focus-color        = "#7a8796"
 focus-fill-alpha   = 0.12
-focus-border       = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
+focus-border       = "rgb(080706) rgb(5a6674) rgb(96423c) rgb(080706) 135deg"
 focus-border-width = 1
-focus-border-alpha = 0.62
+focus-border-alpha = 0.52
 
-selected-color        = "#a67a43"
+selected-color        = "#f7f1ea"
 selected-fill-alpha   = 0.18
-selected-border       = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
+selected-border       = "rgb(080706) rgb(5a6674) rgb(96423c) rgb(080706) 135deg"
 selected-border-width = 1
-selected-border-alpha = 0.55
+selected-border-alpha = 0.48
 
-pressed-color        = "#c08b4a"
+pressed-color        = "#7a8796"
 pressed-fill-alpha   = 0.24
-selection-color      = "#a67a43"
-selection-fill-alpha = 0.36
+selection-color      = "#7a8796"
+selection-fill-alpha = 0.30
 
 [spacing]
 scale = 1.02
@@ -76,55 +76,55 @@ icon-large = 18
 [popups]
 background       = "#040302"
 background-alpha = 0.94
-text             = "#9e9286"
-border           = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
-border-alpha     = 0.95
+text             = "#d0c3b4"
+border           = "rgb(080706) rgb(5a6674) rgb(96423c) rgb(080706) 135deg"
+border-alpha     = 0.78
 
 [tooltip]
 background       = "#040302"
 background-alpha = 0.96
-text             = "#9e9286"
-border           = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
-border-alpha     = 0.72
+text             = "#d0c3b4"
+border           = "rgb(080706) rgb(5a6674) rgb(96423c) rgb(080706) 135deg"
+border-alpha     = 0.58
 
 [notifications]
 background       = "#040302"
 background-alpha = 0.95
-text             = "#9e9286"
-border           = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
-border-alpha     = 0.90
+text             = "#d0c3b4"
+border           = "rgb(080706) rgb(5a6674) rgb(96423c) rgb(080706) 135deg"
+border-alpha     = 0.70
 countdown        = "#c08b4a"
 
 [launcher]
-background                = "#18130f"
+background                = "#080706"
 background-alpha          = 0.94
-text                      = "#9e9286"
-border                    = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
-border-alpha              = 0.52
+text                      = "#d0c3b4"
+border                    = "rgb(080706) rgb(5a6674) rgb(96423c) rgb(080706) 135deg"
+border-alpha              = 0.42
 border-width              = 2
 scrim                     = "#080706"
 scrim-alpha               = 0.44
-selected-background       = "rgb(96423c) rgb(c29b67) rgb(5a6674) 90deg"
-selected-background-alpha = 0.09
+selected-background       = "rgb(5a6674) rgb(96423c) rgb(080706) 90deg"
+selected-background-alpha = 0.10
 selected-text             = "#f7f1ea"
-selected-border           = "#6f665f"
+selected-border           = "#96423c"
 selected-border-alpha     = 0.72
 selected-border-width     = 0
 selected-border-width-left = 4
 
 [menu]
-background                = "#18130f"
+background                = "#080706"
 background-alpha          = 0.94
-text                      = "#9e9286"
-border                    = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
-border-alpha              = 0.52
+text                      = "#d0c3b4"
+border                    = "rgb(080706) rgb(5a6674) rgb(96423c) rgb(080706) 135deg"
+border-alpha              = 0.42
 border-width              = 2
 scrim                     = "#080706"
 scrim-alpha               = 0.44
-selected-background       = "rgb(96423c) rgb(c29b67) rgb(5a6674) 90deg"
-selected-background-alpha = 0.09
+selected-background       = "rgb(5a6674) rgb(96423c) rgb(080706) 90deg"
+selected-background-alpha = 0.10
 selected-text             = "#f7f1ea"
-selected-border           = "#6f665f"
+selected-border           = "#96423c"
 selected-border-alpha     = 0.72
 selected-border-width     = 0
 selected-border-width-left = 4
@@ -132,9 +132,9 @@ selected-border-width-left = 4
 [polkit]
 background       = "#040302"
 background-alpha = 0.97
-text             = "#9e9286"
+text             = "#d0c3b4"
 text-error       = "#a5342f"
-border           = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
+border           = "rgb(080706) rgb(5a6674) rgb(96423c) rgb(080706) 135deg"
 border-error     = "#a5342f"
 border-alpha     = 0.96
 scrim            = "#080706"
@@ -144,21 +144,21 @@ accent           = "#c08b4a"
 [lock]
 background       = "#040302"
 background-alpha = 0.82
-text             = "#9e9286"
+text             = "#d0c3b4"
 placeholder      = "#8d8177"
 text-error       = "#a5342f"
-border           = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
-border-active    = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
+border           = "rgb(080706) rgb(5a6674) rgb(96423c) rgb(080706) 135deg"
+border-active    = "rgb(080706) rgb(5a6674) rgb(96423c) rgb(080706) 135deg"
 border-error     = "#a5342f"
 border-alpha     = 0.95
-selection        = "#a67a43"
-selection-alpha  = 0.42
+selection        = "#7a8796"
+selection-alpha  = 0.38
 
 [image-picker]
 scrim                   = "#080706"
 scrim-alpha             = 0.58
-text                    = "#9e9286"
-selected-border         = "#c29b67"
+text                    = "#d0c3b4"
+selected-border         = "#7a8796"
 selected-border-alpha   = 1.0
 unselected-border       = "#8d8177"
 unselected-border-alpha = 0.30

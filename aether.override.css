@@ -32,7 +32,7 @@
 @define-color base17 #967284;
 
 @define-color background @base00;
-@define-color foreground @base05;
+@define-color foreground @base06;
 
 @define-color black @base00;
 @define-color red @base08;
@@ -56,8 +56,8 @@
 @define-color theme_fg_color @foreground;
 @define-color theme_base_color @base01;
 @define-color theme_text_color @foreground;
-@define-color theme_selected_bg_color @yellow;
-@define-color theme_selected_fg_color @background;
+@define-color theme_selected_bg_color @blue;
+@define-color theme_selected_fg_color @bright_white;
 @define-color insensitive_bg_color alpha(@background, 0.5);
 @define-color insensitive_fg_color alpha(@foreground, 0.5);
 @define-color insensitive_base_color @background;
@@ -65,13 +65,13 @@
 @define-color theme_unfocused_fg_color @foreground;
 @define-color theme_unfocused_base_color @base01;
 @define-color theme_unfocused_text_color @foreground;
-@define-color theme_unfocused_selected_bg_color @yellow;
-@define-color theme_unfocused_selected_fg_color @background;
+@define-color theme_unfocused_selected_bg_color @blue;
+@define-color theme_unfocused_selected_fg_color @bright_white;
 
 /* Adwaita Color Overrides */
-@define-color accent_bg_color @yellow;
-@define-color accent_fg_color @background;
-@define-color accent_color @yellow;
+@define-color accent_bg_color @blue;
+@define-color accent_fg_color @bright_white;
+@define-color accent_color @bright_blue;
 
 @define-color window_bg_color @base00;
 @define-color window_fg_color @foreground;
@@ -158,9 +158,9 @@
 /* Dropdown/ComboBox colors */
 @define-color dropdown_bg_color @base01;
 @define-color dropdown_fg_color @foreground;
-@define-color dropdown_hover_bg_color alpha(@yellow, 0.22);
-@define-color dropdown_selected_bg_color @yellow;
-@define-color dropdown_selected_fg_color @background;
+@define-color dropdown_hover_bg_color alpha(@bright_blue, 0.22);
+@define-color dropdown_selected_bg_color @blue;
+@define-color dropdown_selected_fg_color @bright_white;
 
 /* Pathbar/Breadcrumb colors */
 @define-color pathbar_bg_color @background;
@@ -188,8 +188,8 @@
 @define-color link_visited_color @magenta;
 
 /* Selection colors (for text selection, etc) */
-@define-color selection_bg_color @yellow;
-@define-color selection_fg_color @background;
+@define-color selection_bg_color @blue;
+@define-color selection_fg_color @bright_white;
 
 /* Content view (file browser grid/list) */
 @define-color content_view_bg @base01;

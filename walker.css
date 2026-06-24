@@ -1,15 +1,15 @@
 @define-color selected-text #f7f1ea;
-@define-color text #9e9286;
+@define-color text #d0c3b4;
 @define-color base #080706;
 @define-color border #6f665f;
 @define-color frame #8d8177;
 @define-color panel #18130f;
 @define-color panel-edge #040302;
-@define-color accent-line #c29b67;
+@define-color accent-line #96423c;
 @define-color hover #2d251f;
 @define-color selected-bg #2d251f;
 @define-color muted #8d8177;
-@define-color foreground #9e9286;
+@define-color foreground #d0c3b4;
 @define-color background #080706;
 
 window,

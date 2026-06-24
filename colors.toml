@@ -27,20 +27,20 @@ base16 = "#7a8796"
 base17 = "#967284"
 
 # Accent and UI colors
-accent = "#a67a43"
-hyprland_active_border = "rgb(080706) rgb(96423c) rgb(c29b67) rgb(5a6674) rgb(080706) 135deg"
+accent = "#7a8796"
+hyprland_active_border = "rgb(080706) rgb(5a6674) rgb(96423c) rgb(080706) 135deg"
 hyprland_inactive_border = "rgba(6f665f99) rgba(2d251f55) rgba(080706cc) 135deg"
-active_border_color = "#c29b67"
-active_tab_background = "#a67a43"
+active_border_color = "#7a8796"
+active_tab_background = "#5a6674"
 
 # Cursor and primary colors
-cursor = "#9e9286"
-foreground = "#9e9286"
+cursor = "#d0c3b4"
+foreground = "#d0c3b4"
 background = "#080706"
 
 # Selection colors
 selection_foreground = "#080706"
-selection_background = "#a67a43"
+selection_background = "#5a6674"
 
 # Omarchy semantic Base24 roles
 bg = "#080706"
@@ -48,7 +48,7 @@ lighter_bg = "#18130f"
 selection = "#2d251f"
 muted = "#6f665f"
 dark_fg = "#8d8177"
-fg = "#9e9286"
+fg = "#d0c3b4"
 light_fg = "#d0c3b4"
 bright_fg = "#f7f1ea"
 

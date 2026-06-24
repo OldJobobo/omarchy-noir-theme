@@ -30,7 +30,7 @@
 @define-color base17 #967284;
 
 @define-color background @base00;
-@define-color foreground @base05;
+@define-color foreground @base06;
 
 @define-color black @base00;
 @define-color red @base08;
@@ -50,9 +50,9 @@
 @define-color bright_white @base07;
 
 /* Adwaita Color Overrides */
-@define-color accent_bg_color @yellow;
-@define-color accent_fg_color @background;
-@define-color accent_color @yellow;
+@define-color accent_bg_color @blue;
+@define-color accent_fg_color @bright_white;
+@define-color accent_color @bright_blue;
 
 @define-color window_bg_color @base00;
 @define-color window_fg_color @foreground;
@@ -97,8 +97,8 @@
 @define-color theme_text_color @foreground;
 @define-color theme_bg_color @base00;
 @define-color theme_base_color @base01;
-@define-color theme_selected_bg_color @yellow;
-@define-color theme_selected_fg_color @background;
+@define-color theme_selected_bg_color @blue;
+@define-color theme_selected_fg_color @bright_white;
 @define-color insensitive_bg_color @base00;
 @define-color insensitive_fg_color @bright_black;
 @define-color insensitive_base_color @black;
@@ -106,8 +106,8 @@
 @define-color theme_unfocused_text_color @foreground;
 @define-color theme_unfocused_bg_color @base00;
 @define-color theme_unfocused_base_color @base01;
-@define-color theme_unfocused_selected_bg_color @yellow;
-@define-color theme_unfocused_selected_fg_color @background;
+@define-color theme_unfocused_selected_bg_color @blue;
+@define-color theme_unfocused_selected_fg_color @bright_white;
 @define-color unfocused_insensitive_color @bright_black;
 @define-color unfocused_borders alpha(@foreground, 0.12);
 @define-color warning_color @yellow;

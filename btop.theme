@@ -4,13 +4,13 @@
 theme[main_bg]=""
 
 # Main text color
-theme[main_fg]="#9e9286"
+theme[main_fg]="#d0c3b4"
 
 # Title color for boxes
 theme[title]="#d0c3b4"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#c08b4a"
+theme[hi_fg]="#7a8796"
 
 # Background color of selected items
 theme[selected_bg]="#2d251f"
@@ -34,7 +34,7 @@ theme[proc_misc]="#c4ab84"
 theme[cpu_box]="#667863"
 theme[mem_box]="#8c6f4b"
 theme[net_box]="#7a8796"
-theme[proc_box]="#a67a43"
+theme[proc_box]="#5a6674"
 theme[div_line]="#6f665f"
 
 # Temperature graph colors
@@ -44,7 +44,7 @@ theme[temp_end]="#a5342f"
 
 # CPU graph colors
 theme[cpu_start]="#51604f"
-theme[cpu_mid]="#a67a43"
+theme[cpu_mid]="#7a8796"
 theme[cpu_end]="#a5342f"
 
 # Mem/Disk free meter
@@ -54,8 +54,8 @@ theme[free_end]="#d0c3b4"
 
 # Mem/Disk cached meter
 theme[cached_start]="#8c6f4b"
-theme[cached_mid]="#a67a43"
-theme[cached_end]="#c08b4a"
+theme[cached_mid]="#8c6f4b"
+theme[cached_end]="#c4ab84"
 
 # Mem/Disk available meter
 theme[available_start]="#51604f"
@@ -75,11 +75,11 @@ theme[download_end]="#c4ab84"
 # Upload graph colors
 theme[upload_start]="#7b5a6a"
 theme[upload_mid]="#967284"
-theme[upload_end]="#c08b4a"
+theme[upload_end]="#967284"
 
 # Process box color gradient
 theme[process_start]="#8d8177"
-theme[process_mid]="#a67a43"
+theme[process_mid]="#96423c"
 theme[process_end]="#a5342f"
 
 # General graph gradient colors
@@ -89,5 +89,5 @@ theme[gradient_color_2]="#2d251f"
 theme[gradient_color_3]="#51604f"
 theme[gradient_color_4]="#5a6674"
 theme[gradient_color_5]="#8c6f4b"
-theme[gradient_color_6]="#a67a43"
-theme[gradient_color_7]="#c08b4a"
+theme[gradient_color_6]="#7a8796"
+theme[gradient_color_7]="#d0c3b4"

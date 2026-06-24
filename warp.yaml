@@ -1,8 +1,8 @@
 name: Aether
-accent: "#a67a43"
-cursor: "#9e9286"
+accent: "#7a8796"
+cursor: "#d0c3b4"
 background: "#080706"
-foreground: "#9e9286"
+foreground: "#d0c3b4"
 details: darker
 
 terminal_colors:

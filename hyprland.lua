@@ -1,6 +1,6 @@
 -- Noir Hyprland theme include.
 local activeBorderColor = {
-	colors = { "rgb(080706)", "rgb(96423c)", "rgb(c29b67)", "rgb(5a6674)", "rgb(080706)" },
+	colors = { "rgb(080706)", "rgb(5a6674)", "rgb(96423c)", "rgb(080706)" },
 	angle = 135,
 }
 local inactiveBorderColor = {
@@ -17,7 +17,7 @@ hl.config({
 			active_border = activeBorderColor,
 			inactive_border = inactiveBorderColor,
 		},
-		border_size = 3,
+		border_size = 2,
 		gaps_in = 7,
 		gaps_out = 22,
 	},
@@ -30,7 +30,7 @@ hl.config({
 	decoration = {
 		rounding = 0,
 		dim_inactive = true,
-		dim_strength = 0.24,
+		dim_strength = 0.20,
 		--active_opacity = 1.0,
 		inactive_opacity = 0.93,
 		blur = {
@@ -38,8 +38,8 @@ hl.config({
 			size = 2,
 			passes = 1,
 			noise = 0.08,
-			contrast = 0.24,
-			vibrancy = 0.0,
+			contrast = 0.40,
+			vibrancy = 0.1,
 			vibrancy_darkness = 0.28,
 		},
 		shadow = {

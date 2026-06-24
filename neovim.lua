@@ -14,7 +14,7 @@ return {
 
                 -- Foreground colors
                 -- fg: Object properties, builtin types, builtin variables, member access, default text
-                fg = "#9e9286",
+                fg = "#d0c3b4",
                 -- fg_dark: Inactive elements, statusline, secondary text
                 fg_dark = "#8d8177",
                 -- comment: Line highlight, gutter elements, disabled states
