@@ -28,11 +28,11 @@ omarchy-theme-install https://github.com/OldJobobo/omarchy-noir-theme
   <tr>
     <td><img src="backgrounds/02-cinder-mask.jpg" width="220" alt="Cinder mask"></td>
     <td><img src="backgrounds/03-midnight-platform.jpg" width="220" alt="Midnight platform"></td>
-    <td><img src="backgrounds/04-last-light-room.png" width="220" alt="Last light room"></td>
+    <td><img src="backgrounds/04-last-light-room.jpg" width="220" alt="Last light room"></td>
   </tr>
   <tr>
     <td><img src="backgrounds/05-noir-eyes.jpg" width="220" alt="Noir eyes"></td>
-    <td><img src="backgrounds/06-rainlit-crossing.png" width="220" alt="Rainlit crossing"></td>
+    <td><img src="backgrounds/06-rainlit-crossing.jpg" width="220" alt="Rainlit crossing"></td>
     <td><img src="backgrounds/07-silver-descent.jpg" width="220" alt="Silver descent"></td>
   </tr>
   <tr>
