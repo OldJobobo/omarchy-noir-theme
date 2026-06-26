@@ -1,6 +1,6 @@
 # Omarchy Noir Theme
 
-A dark Omarchy theme with ink-black surfaces, parchment text, amber focus states, clay red warnings, moss green status color, smoked blue accents, and muted plum. It is built for a hard-edged noir desktop: low glow, sharp borders, deep shadows, and rain-dark wallpaper scenes.
+A dark Omarchy theme with ink-black surfaces, parchment text, amber focus states, clay red warnings, moss green status color, smoked blue accents, and muted plum. It takes its cues from Spider-Noir imagery without narrowing the desktop to a character skin: low glow, sharp borders, deep shadows, and rain-dark wallpaper scenes.
 
 ## Preview
 
@@ -66,7 +66,6 @@ omarchy-theme-install https://github.com/OldJobobo/omarchy-noir-theme
 
 - `preview.png` is the only preview asset currently shipped.
 - The Vencord theme imports `system24.css` from GitHub Pages, so Discord theming depends on that upstream stylesheet being reachable.
-- The wallpaper pack is large for a theme repo. Re-encoding or trimming the set is recommended before a public release.
 
 ## Attribution
 
