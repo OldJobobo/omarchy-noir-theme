@@ -20,50 +20,45 @@ omarchy-theme-install https://github.com/OldJobobo/omarchy-noir-theme
 - Omarchy shell, Hyprland, Hyprlock, Walker, Mako, SwayOSD, GTK, Waybar, Chromium, icons, and Aether styling.
 - Terminal palettes for Alacritty, Foot, Ghostty, Kitty, and Warp.
 - App/editor ports for Neovim, Zed, btop, and Vencord.
-- 24 wallpapers in `backgrounds/`.
+- 19 wallpapers in `backgrounds/`.
 
 ## Wallpapers
 
 <table>
   <tr>
-    <td><img src="backgrounds/02-cinder-mask.jpg" width="220" alt="Cinder mask"></td>
-    <td><img src="backgrounds/03-midnight-platform.jpg" width="220" alt="Midnight platform"></td>
-    <td><img src="backgrounds/04-last-light-room.jpg" width="220" alt="Last light room"></td>
+    <td><img src="backgrounds/01-cinder-mask.jpg" width="220" alt="Cinder mask"></td>
+    <td><img src="backgrounds/02-last-light-room.jpg" width="220" alt="Last light room"></td>
+    <td><img src="backgrounds/03-noir-eyes.jpg" width="220" alt="Noir eyes"></td>
   </tr>
   <tr>
-    <td><img src="backgrounds/05-noir-eyes.jpg" width="220" alt="Noir eyes"></td>
-    <td><img src="backgrounds/06-rainlit-crossing.jpg" width="220" alt="Rainlit crossing"></td>
-    <td><img src="backgrounds/07-silver-descent.jpg" width="220" alt="Silver descent"></td>
+    <td><img src="backgrounds/04-ashen-alley-flight.jpg" width="220" alt="Ashen alley flight"></td>
+    <td><img src="backgrounds/05-moonlit-vigil.jpg" width="220" alt="Moonlit vigil"></td>
+    <td><img src="backgrounds/06-gilded-rooftop-fall.jpg" width="220" alt="Gilded rooftop fall"></td>
   </tr>
   <tr>
-    <td><img src="backgrounds/08-ashen-alley-flight.jpg" width="220" alt="Ashen alley flight"></td>
-    <td><img src="backgrounds/09-rooftop-oracle.jpg" width="220" alt="Rooftop oracle"></td>
-    <td><img src="backgrounds/10-moonlit-vigil.jpg" width="220" alt="Moonlit vigil"></td>
+    <td><img src="backgrounds/07-sable-cape-stand.jpg" width="220" alt="Sable cape stand"></td>
+    <td><img src="backgrounds/08-reflection-alley-stride.jpg" width="220" alt="Reflection alley stride"></td>
+    <td><img src="backgrounds/09-fogbound-lantern-street.jpg" width="220" alt="Fogbound lantern street"></td>
   </tr>
   <tr>
-    <td><img src="backgrounds/11-parker-broadside.jpg" width="220" alt="Parker broadside"></td>
-    <td><img src="backgrounds/12-gilded-rooftop-fall.jpg" width="220" alt="Gilded rooftop fall"></td>
-    <td><img src="backgrounds/13-sable-cape-stand.jpg" width="220" alt="Sable cape stand"></td>
+    <td><img src="backgrounds/10-thunder-perch.jpg" width="220" alt="Thunder perch"></td>
+    <td><img src="backgrounds/11-moonlit-cipher.jpg" width="220" alt="Moonlit cipher"></td>
+    <td><img src="backgrounds/12-silver-corner-leap.jpg" width="220" alt="Silver corner leap"></td>
   </tr>
   <tr>
-    <td><img src="backgrounds/14-reflection-alley-stride.jpg" width="220" alt="Reflection alley stride"></td>
-    <td><img src="backgrounds/15-fogbound-lantern-street.jpg" width="220" alt="Fogbound lantern street"></td>
-    <td><img src="backgrounds/16-thunder-perch.jpg" width="220" alt="Thunder perch"></td>
+    <td><img src="backgrounds/13-police-line-standoff.jpg" width="220" alt="Police line standoff"></td>
+    <td><img src="backgrounds/14-amber-gunfire-descent.jpg" width="220" alt="Amber gunfire descent"></td>
+    <td><img src="backgrounds/15-moonwell-watch.jpg" width="220" alt="Moonwell watch"></td>
   </tr>
   <tr>
-    <td><img src="backgrounds/17-moonlit-cipher.jpg" width="220" alt="Moonlit cipher"></td>
-    <td><img src="backgrounds/18-silver-corner-leap.jpg" width="220" alt="Silver corner leap"></td>
-    <td><img src="backgrounds/19-police-line-standoff.jpg" width="220" alt="Police line standoff"></td>
+    <td><img src="backgrounds/16-rainline-swing.jpg" width="220" alt="Rainline swing"></td>
+    <td><img src="backgrounds/17-shadow-fedora-profile.jpg" width="220" alt="Shadow fedora profile"></td>
+    <td><img src="backgrounds/18-hanging-mask.jpg" width="220" alt="Hanging mask"></td>
   </tr>
   <tr>
-    <td><img src="backgrounds/20-amber-gunfire-descent.jpg" width="220" alt="Amber gunfire descent"></td>
-    <td><img src="backgrounds/21-moonwell-watch.jpg" width="220" alt="Moonwell watch"></td>
-    <td><img src="backgrounds/22-rainline-swing.jpg" width="220" alt="Rainline swing"></td>
-  </tr>
-  <tr>
-    <td><img src="backgrounds/23-shadow-fedora-profile.jpg" width="220" alt="Shadow fedora profile"></td>
-    <td><img src="backgrounds/24-hanging-mask.jpg" width="220" alt="Hanging mask"></td>
-    <td><img src="backgrounds/25-spotlight-lounge.jpg" width="220" alt="Spotlight lounge"></td>
+    <td><img src="backgrounds/19-spotlight-lounge.jpg" width="220" alt="Spotlight lounge"></td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
 
