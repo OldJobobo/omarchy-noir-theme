@@ -8,6 +8,8 @@ A dark Omarchy theme with ink-black surfaces, parchment text, amber focus states
 
 ![Noir preview](preview.png)
 
+![Noir alternate preview](preview-2.png)
+
 ## Install
 
 Use the Omarchy theme installer:
@@ -61,7 +63,7 @@ omarchy-theme-install https://github.com/OldJobobo/omarchy-noir-theme
 
 ## Notes
 
-- `title.png` is used as the README banner; `preview.png` is the desktop preview.
+- `title.png` is used as the README banner; `preview.png` and `preview-2.png` are desktop previews.
 - The Vencord theme imports `system24.css` from GitHub Pages, so Discord theming depends on that upstream stylesheet being reachable.
 
 ## Attribution
