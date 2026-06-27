@@ -1,3 +1,5 @@
+![Omarchy Noir Theme](title.png)
+
 # Omarchy Noir Theme
 
 A dark Omarchy theme with ink-black surfaces, parchment text, amber focus states, clay red warnings, moss green status color, smoked blue accents, and muted plum. It takes its cues from Spider-Noir imagery without narrowing the desktop to a character skin: low glow, sharp borders, deep shadows, and rain-dark wallpaper scenes.
@@ -17,9 +19,9 @@ omarchy-theme-install https://github.com/OldJobobo/omarchy-noir-theme
 ## What's Included
 
 - Base24 palette in `colors.toml` and `noir-base24.yaml`.
-- Omarchy shell, Hyprland, Hyprlock, Walker, Mako, SwayOSD, GTK, Waybar, Chromium, icons, and Aether styling.
+- Omarchy shell, Hyprland, Hyprlock, Walker, Mako, SwayOSD, GTK, Waybar, Chromium, icons, keyboard RGB, preview share picker, and Aether styling.
 - Terminal palettes for Alacritty, Foot, Ghostty, Kitty, and Warp.
-- App/editor ports for Neovim, Zed, btop, and Vencord.
+- App/editor ports for Neovim, Helix, VS Code, Zed, btop, Obsidian, Pi, Gum, and Vencord.
 - 18 wallpapers in `backgrounds/`.
 
 ## Wallpapers
@@ -59,7 +61,7 @@ omarchy-theme-install https://github.com/OldJobobo/omarchy-noir-theme
 
 ## Notes
 
-- `preview.png` is the only preview asset currently shipped.
+- `title.png` is used as the README banner; `preview.png` is the desktop preview.
 - The Vencord theme imports `system24.css` from GitHub Pages, so Discord theming depends on that upstream stylesheet being reachable.
 
 ## Attribution
