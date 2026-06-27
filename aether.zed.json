@@ -1,10 +1,10 @@
 {
   "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
   "name": "aether",
-  "author": "Aether",
+  "author": "OldJobobo",
   "themes": [
     {
-      "name": "Aether",
+      "name": "Noir",
       "appearance": "dark",
       "style": {
         "border": "#2d251f",
